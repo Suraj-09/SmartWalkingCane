@@ -1,3 +1,11 @@
+# vscode
+.vscode
+
+# STM32CubeIDE
+.metadata/
+.settings/
+*.ld
+
 # Prerequisites
 *.d
 
