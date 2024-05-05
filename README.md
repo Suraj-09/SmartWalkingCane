@@ -2,7 +2,7 @@
 
 ## Overview
 
-This README provides an overview of the embedded software developed for the Smart Walking Cane capstone project. The software was designed to run on an STM32L412C8T6 microcontroller.
+This README provides an overview of the embedded software developed for the Smart Walking Cane Capstone Project. The software was designed to run on an STM32L412C8T6 microcontroller.
 
 <p align="center">
     <img src="readme_res\smart_walking_cane.png" alt="Smart Walking Cane" width="50%">
@@ -40,6 +40,14 @@ The LTE/GPS module is responsible for the following:
 - LTE IoT 9 Click Module by MICROE
 - Vibration Motors
 - Buzzer Module
+
+## Companion App
+
+A companion Android app was developed for visually impaired users and caretakers. The app enhances the functionality of the Smart Walking Cane. [Link to repository](https://github.com/harri012/Hermes_App).
+
+
+## Companion Android Application
+Our companion Android app was developed for visually impaired users and caretakers. The app enables features such as locating the cane using its GPS coordinates, and pinging the cane if it lost/missplaced. 
 
 ## References
 - The HC-SR04 library used for this project is adapted from [HCSR04 library by Khaled-Magdy-DeepBlue](https://github.com/Khaled-Magdy-DeepBlue/STM32_Course_DeepBlue/tree/master/ECUAL/HCSR04).
