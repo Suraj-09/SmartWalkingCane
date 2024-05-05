@@ -2,11 +2,11 @@
 
 ## Overview
 
-This README provides an overview of the embedded software developed for the Smart Walking Cane capstone project. The software was designed to run on an STM32L412C8T6 microcontroller. The system's functionality is divided into two main parts: obstacle detection and LTE/GPS functionality.
+This README provides an overview of the embedded software developed for the Smart Walking Cane capstone project. The software was designed to run on an STM32L412C8T6 microcontroller.
 
-<div style="text-align:center;">
+<p align="center">
     <img src="readme_res\smart_walking_cane.png" alt="Smart Walking Cane" width="50%">
-</div>
+</p>
 
 ## Obstacle Detection System
 
@@ -23,7 +23,7 @@ The obstacle detection system utilizes ultrasonic sensors (HC-SR04) to detect ob
 ### Head Level Detection Ultrasonic Sensor
 
 - Detects obstacles at head level.
-- Vibration feedback is provided in pulses to differentiate from vibrations triggered by the frontal sensor.
+- Vibration feedback is provided in pulses.
 
 ## LTE/GPS Functionality
 
