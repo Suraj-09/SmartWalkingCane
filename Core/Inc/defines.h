@@ -1,7 +1,7 @@
 #define SIM_APN                             ""  // Set valid SIM APN
 
-#define SERVER_URL_FLAGS          "https://hermes-test-http.azurewebsites.net/flags_head"
-#define SERVER_URL_LOCATION       "https://hermes-test-http.azurewebsites.net/location"
+#define SERVER_URL_FLAGS          ""
+#define SERVER_URL_LOCATION       ""
 
 #define PROCESS_BUFFER_SIZE       2000
 #define RX_BUFFER_SIZE            400
