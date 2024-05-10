@@ -16,9 +16,9 @@ The obstacle detection system utilizes ultrasonic sensors (HC-SR04) to detect ob
 
 - Detects obstacles closer to the ground.
 - Vibration feedback intensity varies based on the distance of the obstacle:
-  - If obstacle distance is within 1 meter: strong vibration.
-  - If obstacle distance is between 1 and 2 meters: weaker vibration.
-  - If obstacle distance is further than 2 meters: no vibration.
+  - If the obstacle's distance is within 1 meter: strong vibration.
+  - If the obstacle's distance is between 1 and 2 meters: weaker vibration.
+  - If the obstacle's distance is further than 2 meters: no vibration.
 
 ### Head Level Detection Ultrasonic Sensor
 
@@ -29,7 +29,7 @@ The obstacle detection system utilizes ultrasonic sensors (HC-SR04) to detect ob
 
 The LTE/GPS module is responsible for the following:
 - Obtains GPS location data
-- Handles communication with a python server:
+- Handles communication with a Python server:
   - Send GPS coordinates to the server
   - Receive requests to ping the cane
 
@@ -43,11 +43,7 @@ The LTE/GPS module is responsible for the following:
 
 ## Companion App
 
-A companion Android app was developed for visually impaired users and caretakers. The app enhances the functionality of the Smart Walking Cane. [Link to repository](https://github.com/harri012/Hermes_App).
-
-
-## Companion Android Application
-Our companion Android app was developed for visually impaired users and caretakers. The app enables features such as locating the cane using its GPS coordinates, and pinging the cane if it lost/missplaced. 
+A companion Android app was developed for visually impaired users and caretakers. The app enhances the functionality of the Smart Walking Cane [Link to repository](https://github.com/harri012/Hermes_App).
 
 ## References
 - The HC-SR04 library used for this project is adapted from [HCSR04 library by Khaled-Magdy-DeepBlue](https://github.com/Khaled-Magdy-DeepBlue/STM32_Course_DeepBlue/tree/master/ECUAL/HCSR04).
